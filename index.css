@@ -1,0 +1,75 @@
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+
+header{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    border-bottom : 1px solid #252525;
+} 
+
+.logo{
+    width: 127px;
+}
+
+.avatar{
+    width: 34px;
+    height: 34px;
+    border-radius: 50%;
+}
+
+.user-avatar{
+    padding: 10px;
+}
+
+.senderInfo{
+    display: flex;
+    padding: 20px 0 5px 10px ;
+    gap:10px;
+
+    
+}
+
+.senderInfo--name{
+    margin: 0;
+    font-weight: bold;
+}
+
+.senderInfo--place{
+    margin: 0;
+}
+
+.vangogh{
+    width: 98vw;
+}
+
+.activity{
+    padding: 10px 5px;
+}
+
+.like, 
+.comment, 
+.dm{
+    width: 23.5px;
+    padding: 0 5px 0 3px;
+}
+
+
+.likes-count{
+    padding: 0 0 0 10px;
+    font-weight: bold;
+    margin: 0
+}
+
+
+.comment-text{
+    padding: 0 0 0 10px;
+}
+
+.commanter-name {
+    font-weight: bold;
+}
+
